@@ -10,6 +10,9 @@
     background-color:#629278 ;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     
 }
 
@@ -22,13 +25,12 @@
 .header h1 .Portfolio {
     color: tan;
     background-color: #629278;
-    padding-top: 12px;
 }
 
 .header nav {
     padding-top: 47px;
-    float: right;
     background-color:#629278 ;
+    
 }
 
 .header nav ul {
@@ -48,7 +50,9 @@
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
+    
 }
+
 
 .aboutMe {
     width: 100%;
@@ -57,61 +61,53 @@
     color: black ;
     font-size: 20px;
     border: solid black;
-    background-color: whitesmoke;
+    background-color: tan;
     
 }
 
-.aboutMe h2 {
-    font-size: 55;
-    color: black;
-    display: inline;
-    justify-content: center;
-    background-color: #E8E8E8;
-}
 
 #part1{
-    display: inline;
+    background-color: tan;
+    padding-top: 0px;
 }
 
 .About-me{
-    background-color: #E8E8E8;
+    background-color: tan;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 #pic {
-    padding-bottom: 0%;
+    padding-left: 0%;
     border:solid black;
     background-color: #E8E8E8;
 }
 
 #me {
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 24px;
     height: 300px;
-    background-color:#E8E8E8;
-    color: black;
+    background-color:tan;
+    color:white ;
     justify-content: center;
-    display: flex;
 }
 
 .My-projects{
     width: 100%;
-    height: 800px;
+    height: 600px;
     background-color: #E8E8E8;
     border: solid black;
     display:flex ;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 10px;
-    justify-content:space-evenly ;
+    flex-direction: colum;
 }
 
 .My-projects h2{
     background-color: #E8E8E8;
-    display: flex;
-    justify-content: center;
+    display: inline;
+    font-size: 27px;
 }
 
 .My-projects header{
@@ -119,18 +115,13 @@
 }
 
 .Horiseon{
-    flex: 3 0 200px;
     background-color: #E8E8E8;
     border: solid black;
     
 }
-
+/* condence un nessasary code and look at sizing of flex boxes */
 .tba{
-    flex: 1 0 200px;
     text-align:center;
     border: solid black;
     background-color: #E8E8E8;
-    padding: 20px;
-    
-
 }
