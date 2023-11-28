@@ -55,19 +55,22 @@ body{
     justify-content: center;
     display: flex;
     font-size: 56px;
-    color: #00ddff;
+    color: #f75990;
+}
+
+.aboutme {
+    display: flex;
 }
 
 .About-me{
     background-color: #0049b7;
     border-top: solid black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display:block;
+    display:flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     flex-direction: column;
-    font-size: 28px;
-    float: left;
+    font-size: 23px;
+    float:left
 }
 
 #pic {
@@ -83,8 +86,7 @@ body{
     padding: 24px;
     height: 300px;
     background-color:#f75990;
-    color: #fff685 ;
-    justify-content: center;
+    color: white ;
 }
 
 .title{
@@ -114,10 +116,11 @@ body{
 
 .imgspan a {
     color: black;
-    padding: 50px;
-    float:inline-en;
-    font-size: 27px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    font-size: 23px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     background-clip: padding-box ;
@@ -126,14 +129,18 @@ body{
 .Horiseon{
     background-color: #0049b7;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     width: 100%;
     height: 900px;
     padding: 20px;
-    flex: 1 2 100%;
+    flex: 1 0 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 23px;
 
   
 }
+
 
 .b1 {
     width: 100%;
@@ -141,8 +148,8 @@ body{
     height: 450px;
     flex-wrap: wrap;
     display: flex;
-    border: solid tan;
-    
+    justify-content: center;
+    border: solid #fff685;
 }
 
 
@@ -151,7 +158,7 @@ body{
     padding: 20px;
     height: 400px;
     margin-top: 15px;
-    border: solid tan;
+    border: solid #f75990;
 }
 
 .b3 {
@@ -159,7 +166,7 @@ body{
     padding: 10px;
     height: 400px;
     margin-top: 15px; 
-    border: solid tan;
+    border: solid #fff685;
 }
 
 .b4 {
@@ -167,7 +174,7 @@ body{
     padding: 10px;
     height: 400px;
     margin-top: 15px;
-    border: solid tan;
+    border: solid #f75990;
 }
 
 .imgspan {
@@ -224,7 +231,7 @@ body{
    padding: 10px;
    margin: 15px;
    font-size: 27px;
-   color: #f75990@;
+   color: #f75990;
 }
 .footer a {
     color: #fff685;
